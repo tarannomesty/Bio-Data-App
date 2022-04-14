@@ -4,7 +4,7 @@ function BioData(connection){
           <div className='bio-data'>
             <h4  style={{textAlign: "Center",paddingTop:"30px",marginTop:"-10px"}}>Bio Data Of</h4>
             <h1  style={{textAlign: "Center"}}>{connection.name}
-            </h1><hr/>
+            </h1><hr/><hr />
             <div className='personal-info'style={{paddingLeft:"20px"}}>
               <h2>Personal Information</h2>
               <p>
@@ -39,11 +39,13 @@ function BioData(connection){
                ))}
               </ul>
             </div>
-            <hr />
             <p style={{paddingBottom:"100px",paddingLeft:"20px"}}>
-                Reference By : {connection.referenceBy}
+                Reference By : {connection.referenceBy}            
             </p>
+            <hr />
+            <hr />
           </div>
+
         </div>
       );
 }
